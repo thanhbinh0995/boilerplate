@@ -1,4 +1,9 @@
 {
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs"
+    }
+  },
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -26,6 +31,7 @@
     "paths": {
       "components/*": ["src/components/*"],
       "pages/*": ["src/pages/*"],
+      "containers/*": ["src/containers/*"],
       "styles/*": ["src/styles/*"],
       "config/*": ["src/config/*"]
     },

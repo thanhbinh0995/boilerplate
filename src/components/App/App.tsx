@@ -1,5 +1,7 @@
-import { HomePage } from 'pages/HomePage';
+import HomePage from 'pages/HomePage';
 
-export function App() {
+const App: FunctionComponent = () => {
   return <HomePage />;
-}
+};
+
+export default App;

@@ -1,7 +1,7 @@
 import { appName } from 'config/constants';
 import HomeContainer from 'containers/HomeContainer';
 
-export function HomePage() {
+const HomePage: FunctionComponent = () => {
   return (
     <main className="home">
       <h1>{appName}</h1>
@@ -9,4 +9,6 @@ export function HomePage() {
       <HomeContainer />
     </main>
   );
-}
+};
+
+export default HomePage;

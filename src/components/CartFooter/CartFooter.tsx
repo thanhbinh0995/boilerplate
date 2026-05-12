@@ -1,8 +1,6 @@
 import * as Styled from './styled';
 
-type Props = {};
-
-export function CartFooter(props: Props) {
+const CartFooter: FunctionComponent = () => {
   return (
     <Styled.Wrapper>
       <Styled.Item>
@@ -23,4 +21,6 @@ export function CartFooter(props: Props) {
       </Styled.FooterItem>
     </Styled.Wrapper>
   );
-}
+};
+
+export default CartFooter;

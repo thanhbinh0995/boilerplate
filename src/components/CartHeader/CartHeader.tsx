@@ -1,5 +1,7 @@
 import * as Styled from './styled';
 
-export function CartHeader() {
+const CartHeader: FunctionComponent = () => {
   return <Styled.Title>MY CART.</Styled.Title>;
-}
+};
+
+export default CartHeader;

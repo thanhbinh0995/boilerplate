@@ -1,10 +1,8 @@
 import * as Styled from './styled';
 
-type Props = {
-  product: ProductManagement.Product;
-};
-
-export function CartItem(props: Props) {
+const CartItem: FunctionComponent<{ product: ProductManagement.Product }> = (
+  props,
+) => {
   const { product } = props;
   const { brand, name, code, color, price, image } = product;
 
@@ -26,4 +24,6 @@ export function CartItem(props: Props) {
       <Styled.Price>${price} HKD</Styled.Price>
     </Styled.Wrapper>
   );
-}
+};
+
+export default CartItem;

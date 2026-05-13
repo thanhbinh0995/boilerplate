@@ -1,17 +1,11 @@
-import CartHeader from 'components/CartHeader';
-import CartItem from 'components/CartItem';
-import CartFooter from 'components/CartFooter';
-import { products } from './rawData';
-import * as Styled from './styled';
+import DashboardLayout from 'components/Layouts/DashboardLayout';
 
-const HomeContainer: FunctionComponent = () => (
-  <Styled.Wrapper>
-    <CartHeader />
-    {products.map((product) => (
-      <CartItem key={product.id} product={product} />
-    ))}
-    <CartFooter />
-  </Styled.Wrapper>
-);
+const HomeContainer: FunctionComponent = () => {
+  return (
+    <DashboardLayout>
+      <Outlet />
+    </DashboardLayout>
+  );
+};
 
 export default HomeContainer;

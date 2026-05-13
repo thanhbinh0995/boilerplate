@@ -6,43 +6,277 @@
 // biome-ignore lint: disable
 export {}
 declare global {
+  const AndroidLogoIcon: typeof import('@phosphor-icons/react').AndroidLogo
+  const AppleLogoIcon: typeof import('@phosphor-icons/react').AppleLogo
+  const ArrowCircleLeftIcon: typeof import('@phosphor-icons/react').ArrowCircleLeft
+  const ArrowCircleRightIcon: typeof import('@phosphor-icons/react').ArrowCircleRight
+  const ArrowClockwiseIcon: typeof import('@phosphor-icons/react').ArrowClockwise
+  const ArrowDownIcon: typeof import('@phosphor-icons/react').ArrowDown
+  const ArrowLeftIcon: typeof import('@phosphor-icons/react').ArrowLeft
+  const ArrowRightIcon: typeof import('@phosphor-icons/react').ArrowRight
+  const ArrowUpIcon: typeof import('@phosphor-icons/react').ArrowUp
+  const ArrowsClockwiseIcon: typeof import('@phosphor-icons/react').ArrowsClockwise
+  const ArrowsOutCardinalIcon: typeof import('@phosphor-icons/react').ArrowsOutCardinal
+  const AtIcon: typeof import('@phosphor-icons/react').At
+  const BellIcon: typeof import('@phosphor-icons/react').Bell
+  const BuildingsIcon: typeof import('@phosphor-icons/react').Buildings
+  const CaretDownIcon: typeof import('@phosphor-icons/react').CaretDown
+  const CaretLeftIcon: typeof import('@phosphor-icons/react').CaretLeft
+  const CaretRightIcon: typeof import('@phosphor-icons/react').CaretRight
+  const CaretUpIcon: typeof import('@phosphor-icons/react').CaretUp
+  const ChartLineIcon: typeof import('@phosphor-icons/react').ChartLine
+  const ChatCenteredTextIcon: typeof import('@phosphor-icons/react').ChatCenteredText
+  const ChatCircleTextIcon: typeof import('@phosphor-icons/react').ChatCircleText
+  const CheckCircleIcon: typeof import('@phosphor-icons/react').CheckCircle
+  const CheckIcon: typeof import('@phosphor-icons/react').Check
+  const CircleIcon: typeof import('@phosphor-icons/react').Circle
+  const CodesandboxLogoIcon: typeof import('@phosphor-icons/react').CodesandboxLogo
+  const Controller: typeof import('react-hook-form').Controller
+  const CopySimpleIcon: typeof import('@phosphor-icons/react').CopySimple
+  const CropIcon: typeof import('@phosphor-icons/react').Crop
+  const DashboardLayout: typeof import('../shared/components').DashboardLayout
+  const DotsThreeIcon: typeof import('@phosphor-icons/react').DotsThree
+  const DotsThreeVerticalIcon: typeof import('@phosphor-icons/react').DotsThreeVertical
+  const DownloadSimpleIcon: typeof import('@phosphor-icons/react').DownloadSimple
+  const EnvelopeIcon: typeof import('@phosphor-icons/react').Envelope
+  const EyeIcon: typeof import('@phosphor-icons/react').Eye
+  const EyeSlashIcon: typeof import('@phosphor-icons/react').EyeSlash
+  const FileDocIcon: typeof import('@phosphor-icons/react').FileDoc
+  const FileTextIcon: typeof import('@phosphor-icons/react').FileText
+  const FileZipIcon: typeof import('@phosphor-icons/react').FileZip
+  const FlagIcon: typeof import('@phosphor-icons/react').Flag
+  const GearIcon: typeof import('@phosphor-icons/react').Gear
+  const GuestLayout: typeof import('../shared/components').GuestLayout
+  const HeartIcon: typeof import('@phosphor-icons/react').Heart
+  const Helmet: typeof import('react-helmet-async').Helmet
+  const HelmetProvider: typeof import('react-helmet-async').HelmetProvider
+  const HouseIcon: typeof import('@phosphor-icons/react').House
+  const ImageIcon: typeof import('@phosphor-icons/react').Image
+  const ImageSquareIcon: typeof import('@phosphor-icons/react').ImageSquare
+  const InfoIcon: typeof import('@phosphor-icons/react').Info
+  const Link: typeof import('react-router-dom').Link
+  const LinkIcon: typeof import('@phosphor-icons/react').Link
+  const LinkSimpleHorizontalIcon: typeof import('@phosphor-icons/react').LinkSimpleHorizontal
+  const ListBulletsIcon: typeof import('@phosphor-icons/react').ListBullets
+  const ListDashesIcon: typeof import('@phosphor-icons/react').ListDashes
+  const MUIAppBar: typeof import('@mui/material').AppBar
+  const MUIBadge: typeof import('@mui/material').Badge
+  const MUIBottomNavigation: typeof import('@mui/material').BottomNavigation
+  const MUIBottomNavigationAction: typeof import('@mui/material').BottomNavigationAction
+  const MUIBox: typeof import('@mui/material').Box
+  const MUIBreadcrumbs: typeof import('@mui/material').Breadcrumbs
+  const MUIButton: typeof import('@mui/material').Button
+  const MUICircularProgress: typeof import('@mui/material').CircularProgress
+  const MUIDialog: typeof import('@mui/material').Dialog
+  const MUIDialogActions: typeof import('@mui/material').DialogActions
+  const MUIDialogContent: typeof import('@mui/material').DialogContent
+  const MUIDialogTitle: typeof import('@mui/material').DialogTitle
+  const MUIDrawer: typeof import('@mui/material').Drawer
+  const MUIFade: typeof import('@mui/material').Fade
+  const MUIFormControl: typeof import('@mui/material').FormControl
+  const MUIGrid: typeof import('@mui/material').Grid
+  const MUIIconButton: typeof import('@mui/material').IconButton
+  const MUIInputAdornment: typeof import('@mui/material').InputAdornment
+  const MUIInputLabel: typeof import('@mui/material').InputLabel
+  const MUILinearProgress: typeof import('@mui/material').LinearProgress
+  const MUILink: typeof import('@mui/material').Link
+  const MUILoadingButton: typeof import('@mui/lab').LoadingButton
+  const MUIMenu: typeof import('@mui/material').Menu
+  const MUIMenuItem: typeof import('@mui/material').MenuItem
+  const MUIPagination: typeof import('@mui/material').Pagination
+  const MUIPopper: typeof import('@mui/material').Popper
+  const MUISelect: typeof import('@mui/material').Select
+  const MUISkeleton: typeof import('@mui/material').Skeleton
+  const MUISlider: typeof import('@mui/material').Slider
+  const MUISwitch: typeof import('@mui/material').Switch
+  const MUITab: typeof import('@mui/material').Tab
+  const MUITable: typeof import('@mui/material').Table
+  const MUITableBody: typeof import('@mui/material').TableBody
+  const MUITableCell: typeof import('@mui/material').TableCell
+  const MUITableContainer: typeof import('@mui/material').TableContainer
+  const MUITableHead: typeof import('@mui/material').TableHead
+  const MUITableRow: typeof import('@mui/material').TableRow
+  const MUITabs: typeof import('@mui/material').Tabs
+  const MUITextField: typeof import('@mui/material').TextField
+  const MUIToolbar: typeof import('@mui/material').Toolbar
+  const MUITooltip: typeof import('@mui/material').Tooltip
+  const MagnifyingGlassIcon: typeof import('@phosphor-icons/react').MagnifyingGlass
+  const MagnifyingGlassMinusIcon: typeof import('@phosphor-icons/react').MagnifyingGlassMinus
+  const MagnifyingGlassPlusIcon: typeof import('@phosphor-icons/react').MagnifyingGlassPlus
+  const MapPinIcon: typeof import('@phosphor-icons/react').MapPin
+  const MasterLayout: typeof import('../shared/components').MasterLayout
+  const MusicNotesPlusIcon: typeof import('@phosphor-icons/react').MusicNotesPlus
+  const NavLink: typeof import('react-router-dom').NavLink
+  const NavigationArrowIcon: typeof import('@phosphor-icons/react').NavigationArrow
+  const NoteIcon: typeof import('@phosphor-icons/react').Note
+  const NotePencilIcon: typeof import('@phosphor-icons/react').NotePencil
+  const Outlet: typeof import('react-router-dom').Outlet
+  const PaperPlaneTiltIcon: typeof import('@phosphor-icons/react').PaperPlaneTilt
+  const PauseCircleIcon: typeof import('@phosphor-icons/react').PauseCircle
+  const PencilLineIcon: typeof import('@phosphor-icons/react').PencilLine
+  const PencilSimpleIcon: typeof import('@phosphor-icons/react').PencilSimple
+  const PhoneCallIcon: typeof import('@phosphor-icons/react').PhoneCall
+  const PlayCircleIcon: typeof import('@phosphor-icons/react').PlayCircle
+  const PlayIcon: typeof import('@phosphor-icons/react').Play
+  const PlusCircleIcon: typeof import('@phosphor-icons/react').PlusCircle
+  const PlusIcon: typeof import('@phosphor-icons/react').Plus
+  const PreLoader: typeof import('../shared/components').PreLoader
+  const ProhibitIcon: typeof import('@phosphor-icons/react').Prohibit
+  const QueryClient: typeof import('react-query').QueryClient
+  const QueryClientProvider: typeof import('react-query').QueryClientProvider
+  const QuestionIcon: typeof import('@phosphor-icons/react').Question
+  const RadioButtonIcon: typeof import('@phosphor-icons/react').RadioButton
+  const RouterProvider: typeof import('react-router-dom').RouterProvider
+  const Scrollbar: typeof import('../shared/components').Scrollbar
+  const SelectionPlusIcon: typeof import('@phosphor-icons/react').SelectionPlus
+  const ShareNetworkIcon: typeof import('@phosphor-icons/react').ShareNetwork
+  const SignOutIcon: typeof import('@phosphor-icons/react').SignOut
+  const SpinLoading: typeof import('../shared/components').SpinLoading
   const StrictMode: typeof import('react').StrictMode
   const Suspense: typeof import('react').Suspense
-  const ThemeProvider: typeof import('styled-components').ThemeProvider
+  const SwapIcon: typeof import('@phosphor-icons/react').Swap
+  const ThemeProvider: typeof import('@mui/material/styles').ThemeProvider
+  const Trans: typeof import('react-i18next').Trans
+  const Translation: typeof import('react-i18next').Translation
+  const TrashSimpleIcon: typeof import('@phosphor-icons/react').TrashSimple
+  const UploadIcon: typeof import('@phosphor-icons/react').Upload
+  const UploadSimpleIcon: typeof import('@phosphor-icons/react').UploadSimple
+  const UserCircleIcon: typeof import('@phosphor-icons/react').UserCircle
+  const UserCirclePlusIcon: typeof import('@phosphor-icons/react').UserCirclePlus
+  const UserIcon: typeof import('@phosphor-icons/react').User
+  const VibrateIcon: typeof import('@phosphor-icons/react').Vibrate
+  const VideoCameraIcon: typeof import('@phosphor-icons/react').VideoCamera
+  const WarningCircleIcon: typeof import('@phosphor-icons/react').WarningCircle
+  const WarningIcon: typeof import('@phosphor-icons/react').Warning
+  const WarningOctagonIcon: typeof import('@phosphor-icons/react').WarningOctagon
+  const XCircleIcon: typeof import('@phosphor-icons/react').XCircle
+  const XIcon: typeof import('@phosphor-icons/react').X
+  const alpha: typeof import('@mui/material/styles').alpha
+  const assign: typeof import('lodash-es').assign
+  const camelCase: typeof import('lodash-es').camelCase
+  const cloneDeep: typeof import('lodash-es').cloneDeep
   const cloneElement: typeof import('react').cloneElement
+  const create: typeof import('zustand').create
+  const createBrowserRouter: typeof import('react-router-dom').createBrowserRouter
   const createContext: typeof import('react').createContext
   const createGlobalStyle: typeof import('styled-components').createGlobalStyle
   const createRef: typeof import('react').createRef
-  const css: typeof import('styled-components').css
+  const createTheme: typeof import('@mui/material/styles').createTheme
+  const css: typeof import('@mui/material/styles').css
+  const debounce: typeof import('lodash-es').debounce
+  const entries: typeof import('lodash-es').entries
+  const filter: typeof import('lodash-es').filter
+  const find: typeof import('lodash-es').find
+  const findIndex: typeof import('lodash-es').findIndex
+  const flatten: typeof import('lodash-es').flatten
+  const forEach: typeof import('lodash-es').forEach
   const forwardRef: typeof import('react').forwardRef
+  const get: typeof import('lodash-es').get
+  const has: typeof import('lodash-es').has
+  const head: typeof import('lodash-es').head
+  const initReactI18next: typeof import('react-i18next').initReactI18next
+  const isArray: typeof import('lodash-es').isArray
+  const isDate: typeof import('lodash-es').isDate
+  const isEmpty: typeof import('lodash-es').isEmpty
+  const isEqual: typeof import('lodash-es').isEqual
+  const isNull: typeof import('lodash-es').isNull
+  const isNumber: typeof import('lodash-es').isNumber
+  const isObject: typeof import('lodash-es').isObject
+  const isString: typeof import('lodash-es').isString
   const isValidElement: typeof import('react').isValidElement
-  const keyframes: typeof import('styled-components').keyframes
+  const kebabCase: typeof import('lodash-es').kebabCase
+  const keyBy: typeof import('lodash-es').keyBy
+  const keyframes: typeof import('@mui/material/styles').keyframes
+  const keys: typeof import('lodash-es').keys
   const lazy: typeof import('react').lazy
+  const lazyload: typeof import('../shared/utils').lazyload
+  const map: typeof import('lodash-es').map
   const memo: typeof import('react').memo
+  const omit: typeof import('lodash-es').omit
+  const orderBy: typeof import('lodash-es').orderBy
+  const padStart: typeof import('lodash-es').padStart
+  const pick: typeof import('lodash-es').pick
+  const random: typeof import('lodash-es').random
+  const range: typeof import('lodash-es').range
+  const reduce: typeof import('lodash-es').reduce
+  const replace: typeof import('lodash-es').replace
+  const round: typeof import('lodash-es').round
+  const size: typeof import('lodash-es').size
+  const snakeCase: typeof import('lodash-es').snakeCase
+  const some: typeof import('lodash-es').some
+  const sortBy: typeof import('lodash-es').sortBy
   const startTransition: typeof import('react').startTransition
-  const styled: typeof import('styled-components').default
+  const styled: typeof import('@mui/material/styles').styled
+  const toLower: typeof import('lodash-es').toLower
+  const trim: typeof import('lodash-es').trim
+  const truncate: typeof import('lodash-es').truncate
+  const uniq: typeof import('lodash-es').uniq
+  const uniqBy: typeof import('lodash-es').uniqBy
+  const useBoolean: typeof import('ahooks').useBoolean
   const useCallback: typeof import('react').useCallback
+  const useClickAway: typeof import('ahooks').useClickAway
   const useContext: typeof import('react').useContext
+  const useController: typeof import('react-hook-form').useController
+  const useDebounce: typeof import('ahooks').useDebounce
   const useDebugValue: typeof import('react').useDebugValue
   const useDeferredValue: typeof import('react').useDeferredValue
+  const useDocumentVisibility: typeof import('ahooks').useDocumentVisibility
   const useEffect: typeof import('react').useEffect
+  const useForm: typeof import('react-hook-form').useForm
+  const useHover: typeof import('ahooks').useHover
   const useId: typeof import('react').useId
   const useImperativeHandle: typeof import('react').useImperativeHandle
   const useInsertionEffect: typeof import('react').useInsertionEffect
   const useLayoutEffect: typeof import('react').useLayoutEffect
+  const useLocation: typeof import('react-router-dom').useLocation
+  const useLongPress: typeof import('ahooks').useLongPress
+  const useMatch: typeof import('react-router-dom').useMatch
+  const useMatches: typeof import('react-router-dom').useMatches
+  const useMediaQuery: typeof import('@mui/material').useMediaQuery
   const useMemo: typeof import('react').useMemo
+  const useMemoizedFn: typeof import('ahooks').useMemoizedFn
+  const useMount: typeof import('ahooks').useMount
+  const useMutation: typeof import('react-query').useMutation
+  const useNavigate: typeof import('react-router-dom').useNavigate
+  const useParams: typeof import('react-router-dom').useParams
+  const usePrevious: typeof import('ahooks').usePrevious
+  const useQueries: typeof import('react-query').useQueries
+  const useQuery: typeof import('react-query').useQuery
+  const useQueryClient: typeof import('react-query').useQueryClient
   const useReducer: typeof import('react').useReducer
   const useRef: typeof import('react').useRef
+  const useResetState: typeof import('ahooks').useResetState
+  const useSearchParams: typeof import('react-router-dom').useSearchParams
+  const useSize: typeof import('ahooks').useSize
   const useState: typeof import('react').useState
+  const useStore: typeof import('zustand').useStore
   const useSyncExternalStore: typeof import('react').useSyncExternalStore
+  const useTheme: typeof import('@mui/material').useTheme
+  const useToggle: typeof import('ahooks').useToggle
   const useTransition: typeof import('react').useTransition
+  const useTranslation: typeof import('react-i18next').useTranslation
+  const useUnmount: typeof import('ahooks').useUnmount
+  const useUpdateEffect: typeof import('ahooks').useUpdateEffect
+  const values: typeof import('lodash-es').values
 }
 // for type re-export
 declare global {
   // @ts-ignore
-  export type { FunctionComponent, ReactNode, ReactElement, Key, MouseEvent as ReactMouseEvent, KeyboardEvent as ReactKeyboardEvent, ClipboardEvent as ReactClipboardEvent, ComponentType, ComponentProps, ChangeEvent, Ref, RefObject, Dispatch, SetStateAction, CSSProperties } from 'react'
+  export type { StoreApi, UseBoundStore, StateCreator } from 'zustand'
+  import('zustand')
+  // @ts-ignore
+  export type { Dispatch, SetStateAction, FunctionComponent, ReactNode, ReactElement, Key, MouseEvent as ReactMouseEvent, KeyboardEvent as ReactKeyboardEvent, ComponentType, ComponentProps, ChangeEvent, Ref, SyntheticEvent, RefObject, CSSProperties, ElementRef, ForwardRefRenderFunction, MutableRefObject, UIEventHandler } from 'react'
   import('react')
   // @ts-ignore
-  export type { DefaultTheme } from 'styled-components'
-  import('styled-components')
+  export type { QueryKey, UseQueryOptions, UseQueryResult, QueriesResults, QueriesOptions } from 'react-query'
+  import('react-query')
+  // @ts-ignore
+  export type { Components, Theme, BoxProps, TextFieldProps, DialogProps, PopperProps, IconButtonProps, SwitchProps, TooltipProps, TabsProps, ModalProps, SxProps, SelectProps, SelectChangeEvent } from '@mui/material'
+  import('@mui/material')
+  // @ts-ignore
+  export type { LoadingButtonProps } from '@mui/lab'
+  import('@mui/lab')
+  // @ts-ignore
+  export type { RegisterOptions, Control, FieldValues, FieldErrors, UseFormReturn } from 'react-hook-form'
+  import('react-hook-form')
 }

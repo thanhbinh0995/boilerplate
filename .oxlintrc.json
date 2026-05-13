@@ -11,7 +11,7 @@
   "plugins": ["react", "react-perf", "typescript", "import", "jsx-a11y"],
   "ignorePatterns": ["vite.config.ts"],
   "rules": {
-    "no-console": "warn",
+    "no-console": "error",
     "no-debugger": "error",
     "unicorn/filename-case": "off",
     "unicorn/prefer-global-this": "off",

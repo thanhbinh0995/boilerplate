@@ -1,5 +1,5 @@
 declare namespace ProductManagement {
-  type Product = {
+  interface Product {
     id: string;
     brand: string;
     name: string;
@@ -7,5 +7,5 @@ declare namespace ProductManagement {
     code: string;
     price: number;
     image?: string;
-  };
+  }
 }

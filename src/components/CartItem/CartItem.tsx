@@ -6,13 +6,15 @@ const CartItem: FunctionComponent<{ product: ProductManagement.Product }> = (
   const { product } = props;
   const { brand, name, code, color, price, image } = product;
 
+  console.log(product)
+  
   return (
     <Styled.Wrapper>
       <Styled.ProductImgWrapper>
         {image ? (
           <Styled.ProductImg src={image} alt="Example" />
         ) : (
-          <Styled.EmptyImg></Styled.EmptyImg>
+          <Styled.EmptyImg />
         )}
       </Styled.ProductImgWrapper>
       <Styled.ProductInfo>

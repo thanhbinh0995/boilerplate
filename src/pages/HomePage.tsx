@@ -1,12 +1,6 @@
-import { appName } from 'config/constants';
+import { withMemberZone } from 'components/HOC';
 import HomeContainer from 'containers/HomeContainer';
 
-const HomePage: FunctionComponent = () => (
-  <main className="home">
-    <h1>{appName}</h1>
-    <p>Hello World.</p>
-    <HomeContainer />
-  </main>
-);
+const HomePage: FunctionComponent = () => <HomeContainer />;
 
-export default HomePage;
+export default withMemberZone()(HomePage);

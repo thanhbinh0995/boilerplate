@@ -1,17 +1,8 @@
+import 'normalize.css';
 import { createRoot } from 'react-dom/client';
-import App from 'components/App';
-import 'styles/global.css';
+import Application from 'components/Application';
 
-const container = document.getElementById('app');
-
-if (!container) {
-  throw new Error('Root element #app not found');
-}
-
+const container = document.getElementById('app') as HTMLElement;
 const root = createRoot(container);
 
-root.render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-);
+root.render(<Application />);
